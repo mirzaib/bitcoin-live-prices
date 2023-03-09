@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "description": "A simple app to fetch the current Bitcoin price.",
+  "main": "app.js",
+  "keywords": [
+    "bitcoin",
+    "token"
+  ],
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
