@@ -1,4 +1,21 @@
-"dependencies": {
-  "axios": "^0.23.0",
-  "express": "^4.17.2"
+{
+  "name": "bitcoin-token-app",
+  "version": "1.0.0",
+  "description": "A simple app to fetch the current Bitcoin price.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "bitcoin",
+    "token",
+    "app"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13"
+  }
 }
