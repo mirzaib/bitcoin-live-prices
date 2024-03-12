@@ -1,6 +1,8 @@
 const express = require("express");
 const path = require("path");
 const axios = require("axios");
+const openai = require("openai");
+const dotenv =  require("dotenv");
 
 const app = express();
 const port = 3000;
@@ -21,10 +23,16 @@ app.get("/api/price", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server listening at http://localhost:${port}`);
+  console.log(`Server listening at http://localhost:8080${port}`);
 });
+function fetchprice(){
+axios.get("https://www.bitcoin.com/function fetchPrice")() {
+  .then(response =>{
+    const prices = repponse.www.bitcoin.com;
+    e.preventDefault();
+    else if{
+   throw error("can't fetch data from the bitcoin.com")
 
-function fetchPrice() {
   axios
     .get("/api/price")
     .then(response => {
